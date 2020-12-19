@@ -1,0 +1,603 @@
+/* NAVBAR */
+
+.navbar-brand {
+    height: 80px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0;
+}
+
+.main-logo-image{
+    height: 80px;    
+    margin-right: 10px;
+}
+
+.search-description {
+    font-size:90%;
+    color:#777;
+    margin: 6px 0 0 10px;
+}
+
+@media (min-width: 768px){
+    .panel-body .dl-horizontal dt {
+        width: 230px;
+    }
+
+    .panel-body .dl-horizontal dd {
+        margin-left: 246px;
+    }
+
+    .navbar-default .navbar-nav>li>.navigation-button{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #search-form {
+        padding-top: 3px;
+    }
+
+    #search-input {
+        width: 350px;
+    }
+
+    #main-logo {
+        margin-right: 23%;
+    }
+}
+
+@media (max-width: 767px) {
+    #search-input {
+        width: 100%;
+    }
+
+    #main-logo {
+        margin-right: 0;
+    }
+
+    #logo{
+        margin: 0 10px 0 0;
+    }   
+
+}
+
+/* END - NAVBAR ------------------------------------------------------------- */
+
+/* WELCOME PAGE ------------------------------------------------------------- */
+
+.inner-wrap {        
+    max-width:1200px; 
+    margin: 25px auto 0 auto;
+}
+
+/* LEFT PART -------------------------------- */
+.main-buttons{
+    border-spacing: 2px;
+    border-collapse: separate
+}
+
+.main-button{
+    border: #269abc solid 2px;
+    background-color: #5bc0de;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    padding: 0 0 0 10px;
+    overflow: hidden;
+}        
+
+.main-button:hover {    
+    background-color: #39b3d7;    
+}
+
+.main-button a {
+    color:white;
+    text-decoration:none;
+    display: block;
+    margin: -10em;
+    padding: 10em;
+}
+
+/* MIDDLE PART ------------------------------ */
+
+
+#outer-picture {
+    width: 560px;    
+    background-image: url('../images/ClassesBackground.png');
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    margin: 0 auto 0 auto;
+}
+
+#inner-picture {    
+    float: left;
+}
+
+.squer {
+    width: 24.3%;
+    height: 24.3%;    
+    float: left;
+    margin: 0.3%;    
+    text-align: center;
+    line-height: 123.2px;
+
+    color: #333;    
+}
+
+.squer:hover{
+    text-decoration:none;
+    color: #333;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.super-class:hover {
+    background-color: #f5f5f5;
+}
+
+.squer-border {
+    border: black 3px solid;
+    border-radius: 28px;    
+}
+
+.mc-text {
+    font-size: 25.2px;
+    font-weight: bold;    
+}
+
+.squer h3{
+    font-size: 16.8px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.squer p{
+    font-size: 13.72px;
+    font-weight: bold;
+    line-height: 125%;
+}
+
+/* main classes ----------------- */
+
+#Class1 {
+    background-color: #AE194D;    
+}
+
+#Class1:hover {
+    background-color: #B6305F;    
+}
+
+#Class2 {
+    background-color: #0C6499;
+}
+
+#Class2:hover {
+    background-color: #2474A3;    
+}
+
+#Class3 {
+    background-color: #157B40;
+}
+
+#Class3:hover {
+    background-color: #2C8853;
+}
+
+#Class4 {
+    background-color: #BE576C;
+}
+
+#Class4:hover {
+    background-color: #C4687B;
+}
+
+#Class5 {
+    background-color: #3C83AF;
+}
+
+#Class5:hover {
+    background-color: #508FB7;
+}
+
+#Class6 {
+    background-color: #50B37E;
+}
+
+#Class6:hover {
+    background-color: #62BB8B;
+}
+
+#Class7 {
+    background-color: #C98191;
+}
+
+#Class7:hover {
+    background-color: #CE8E9C;
+}
+
+#Class8a {
+    background-color: #619AD2;
+    width: 50%;
+    height: 100%;
+    float: left;    
+    border-right-width: 1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;    
+    color: #333;
+}
+
+#Class8a:hover {
+    background-color: #71A4D6;
+    text-decoration:none;
+    color: #333;
+}
+
+#Class8b {
+    background-color: #89C0E6;
+    width: 50%;
+    height: 100%;
+    float: left;    
+    border-left-width: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;    
+    color: #333;
+}
+
+#Class8b:hover {
+    background-color: #95C6E8;
+    text-decoration:none;
+    color: #333;
+}
+
+#Class9 {
+    background-color: #9DD3B2;   
+}
+
+#Class9:hover {
+    background-color: #A7D7BA;
+}
+
+
+/* RIGHT PART  ------------------------------- */
+
+
+#ac-classes-table table{    
+    margin: 0 auto 0 auto;
+}
+
+#ac-classes-table th {
+    border: 1px solid black;
+    border-collapse: collapse;    
+}
+
+#ac-classes-table td {
+    border: 1px solid black;
+    border-collapse: collapse;    
+}
+
+#ac-classes-table tbody tr{    
+    cursor: pointer;
+}
+
+#ac-classes-table table thead th {
+    background-color: #E9E9E9;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 28px;
+}
+
+#ac-classes-table table tbody td:first-child{
+    background-color: #E9E9E9;
+    text-align: center;
+    font-weight: bold;
+}
+
+#ac-classes-table table tbody div:hover {
+    background-color: #bcbcbc;    
+}
+
+#ac-classes-table table tbody td div{
+    text-align: left;
+    padding-left: 7px;
+    padding-right: 7px;    
+    height: 100%;
+}
+
+#ac-classes-table table tbody td div.rowspan2{    
+    height: 50%;
+}
+
+#ac-classes-table table tbody td div.rowspan4{    
+    height: 25%;
+}
+
+/* UPDATE INFO ------------------------------- */
+
+#update-info {
+    font-size:90%;
+    color:#777;
+}
+
+#update-info a {
+    text-decoration: underline;
+    color:#777;
+}
+
+#update-info a:hover {
+    text-decoration: underline;
+    color:#333;
+}
+
+/* LOGOS  ------------------------------------ */
+
+#logos{
+    clear: both;
+    margin: 60px auto 0 auto;
+    max-width: 850px;
+}
+
+.logo {        
+    float:left;
+}
+
+#cmbi {
+    width: 117px;
+    height: 60px;
+    margin: 10px auto;
+    display: block;
+}
+
+#gencodys {
+    width: 155px;
+    height: 60px;
+    margin: 10px auto;
+    display: block;
+}
+
+#hgn {
+    width: 189px;
+    height: 60px;
+    margin: 10px auto;
+    display: block;
+}
+
+#radboud {
+    width: 186px;
+    height: 60px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+/* WELCOME PAGE - WIDE SCREEN */
+
+
+@media (min-width: 767px) {
+
+    #cmbi {
+        width: 117px;
+        height: 60px;
+        margin: 10px 46px;
+        display: inline-block;
+    }
+
+    #gencodys {
+        width: 155px;
+        height: 60px;
+        margin: 10px 27px;
+        display: inline-block;
+    }
+
+    #hgn {
+        width: 189px;
+        height: 60px;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+
+    #radboud {
+        width: 186px;
+        height: 60px;
+        margin: 10px 11px;
+        display: inline-block;
+    }
+}
+
+/* END - WELCOME PAGE ------------------------------------------------------- */
+
+
+/* SEARCH - PAGE ------------------------------------------------------------ */
+
+#search-result {
+    list-style: none;
+}
+
+#search-result a {
+    text-decoration: underline;
+}
+
+.results-found {
+    color: #999;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.semi-visible {
+    font-size: 12px;
+    color: #bcbcbc;
+    margin-left: 10px;
+}
+
+/* END - SEARCH PAGE -------------------------------------------------------- */
+
+
+/* HUMAN GENE INFO - FLY GENE INFO ------------------------------------------ */
+
+.disease-class {
+    margin-right: 5px;
+}
+
+.diseases .panel-heading {
+    padding: 6px 15px;
+}
+
+.diseases .panel-title {
+    font-size: 14px;
+}
+
+.diseases a:hover {
+    cursor: pointer;
+}
+
+.ortholog {
+    display: block;
+}
+
+
+/* END - HUMAN GENE INFO - FLU GENE INFO ------------------------------------ */
+
+/* ADVANCED SEARCH -----------------------------------------------------------*/
+
+.dropdown-classic {
+    display: inline-block;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    padding: 2px 5px;
+    cursor: default;
+    margin-bottom: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#search-rules {
+    list-style: none;
+    padding: 0;
+}
+
+.no-list {
+    list-style: none;
+}
+
+#query-table {
+    margin-bottom: 20px;
+}
+
+.fixed-field {
+    width: 300px;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+.search-field {
+    /*    border-radius: 2px;
+        border: 1px solid #CCCCCC;
+        height: 26px;
+        padding: 2px 5px;*/
+    //display: inline-block;
+}
+
+/* END - ADVANCED SEARCH----------------------------------------------------- */
+
+/* ABOUT PAGE --------------------------------------------------------------- */
+
+.faq {
+    list-style:none;
+    padding-left: 15px;
+}
+
+.faq li{    
+    margin-bottom: 25px;
+}
+
+/* END - ABOUT PAGE --------------------------------------------------------- */
+
+/* TABLES ------------------------------------------------------------------- */
+
+
+#t_t-human-gene-info,#t_t-disease-info,#t_t-orthology,#t_t-fly-gene-info,#t_t-wing-screen,#t_t-neuronal-screen,#t_t-overview,#t_t-transcription-factor,#t_t-motif{
+    border: 0px solid #D3D3D3;   
+}
+
+.ui-jqgrid-title {
+    color:#777;
+}
+
+#t-motif tr.jqgrow td {
+    overflow: visible;  
+    white-space: normal;
+}
+
+.motif {
+    float:left;     
+    width:300px;
+}
+
+
+/* END - TABLES ------------------------------------------------------------- */
+
+
+/* HELP CLASSES ------------------------------------------------------------- */
+
+.max-width {
+    max-width: 1800px;
+}
+
+.popover {
+    font-weight: normal;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.bigger-padding-btn
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.no-list-style {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.site-login {
+    max-width: 320px;
+    margin: 10% auto 0 auto;
+}
+
+.site-request-password-reset
+{
+    max-width: 500px;
+    margin: 10% auto 0 auto;
+}
+
+.site-reset-password{
+    max-width: 330px;
+    margin: 10% auto 0 auto;
+}
+
+.site-contact {
+    max-width: 570px;
+    margin: 6% auto 0 auto;
+}
+
+.detail-view tr th {    
+    width: 200px;
+}
+
+.detail-view td {    
+    word-break: break-all;
+}

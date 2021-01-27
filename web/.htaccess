@@ -3,6 +3,8 @@
 #AuthName "Sysid database"
 #Require valid-user
 
+php_value memory_limit 1024M
+
 Options +FollowSymLinks
 Options -Indexes
 #IndexIgnore */*

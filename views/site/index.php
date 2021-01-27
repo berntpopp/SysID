@@ -115,32 +115,4 @@ $this->title = 'SysID database';
     </div>
 </div>
 
-<!-- for survey Modal -->
-<div class="modal fade bd-example-modal-sm" id="surveyModalCenter" tabindex="-1" role="dialog" aria-labelledby="surveyModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title" id="surveyModalLongTitle">SysID survey</h3>
-      </div>
-      <div class="modal-body">
-        For upcoming changes and improvements to the SysID database we would like to know how you use the database.
-        We would appreciate if you take time for a short survey.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary pull-left" data-dismiss="modal">No thanks</button>
-        <a id="closemodal" class="btn btn-primary pull-left" href="https://forms.gle/Zbo43rtR3dyAykMu5" role="button" target="_blank">Yes please</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-$("#surveyModalCenter").modal();
-
-$('#closemodal').click(function() {
-    $('#surveyModalCenter').modal('hide');
-});
-</script>
-<!-- for survey Modal -->
-
 <script src="<?= Url::base(); ?>/js/welcome.js" ></script>
